@@ -27,6 +27,22 @@ public class LargestSumSubArray {
 	    System.out.println("start is "+start+" end is "+end);
 	    return max_so_far;  
     } 
+	//This is a much better approach
+		static int maxSubArraySum(int a[]) {
+		int size = a.length;
+		int max_current = 0;
+		int max_global = max_current;
+		
+
+		for (int i = 0; i < size; i++) {
+			max_current = Math.max(a[i],max_current+a[i]);
+			if (max_current > max_global)
+				max_global = max_current;
+			System.out.println(max_current+" and other "+max_global+" ");
+		}
+		System.out.println();
+		return max_global;
+	}
 	public static void main(String[] args) {
 		int ls[]= {2,-4,18,-1,6,-5,5};
 		//Fiery.maxSubArraySum(ls);
