@@ -31,7 +31,7 @@ public class LargestSumSubArray {
 		static int maxSubArraySum(int a[]) {
 		int size = a.length;
 		int max_current = 0;
-		int max_global = max_current;
+		int max_global = Integer.MIN_VALUE;;
 		
 
 		for (int i = 0; i < size; i++) {
