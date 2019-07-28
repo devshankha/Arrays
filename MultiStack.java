@@ -1,3 +1,6 @@
+//This is a nice program, shows how to implement multiple stacks in an array
+//code taken from Cracking the coding interview
+
 class FullStackException extends Exception {
 	
 }
