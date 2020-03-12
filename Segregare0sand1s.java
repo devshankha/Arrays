@@ -1,4 +1,5 @@
 import java.util.Arrays;
+//This is my own implementation , and it seems to work
 
 public class Segregare0sand1s {
 	static int[] swapArray(int a[]) {
