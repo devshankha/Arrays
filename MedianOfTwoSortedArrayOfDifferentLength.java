@@ -2,9 +2,13 @@ package Arrays;
 
 
 	/**
+	  Code taken from Tushar Roy video == https://www.youtube.com/watch?v=LPFhl65R7ww
+	  github link==
+	  
+	  https://github.com/mission-peace/interview/blob/master/src/com/interview/binarysearch/MedianOfTwoSortedArrayOfDifferentLength.java
 	 * There are two sorted arrays nums1 and nums2 of size m and n respectively.
 	 * Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
-	 *
+	 * 
 	 * Solution
 	 * Take minimum size of two array. Possible number of partitions are from 0 to m in m size array.
 	 * Try every cut in binary search way. When you cut first array at i then you cut second array at (m + n + 1)/2 - i
