@@ -1,6 +1,10 @@
 
 //THis is my own interpretation of equilibrium point of an array
 //takes an additional auxillary array, but it works fine
+//the idea here is to take additional array s, which contains the sum of the
+//elements of arr, then take left and right sum in s and compare till lsum is
+//equal to rsum, if you find at index k they are equal, we have found equilibrium point,
+//else equilibrium point does-not exist
 public class EquilibriumPoint {
 	static int findEquilibrium(int[] arr) {
 		int s[] = new int[arr.length];
