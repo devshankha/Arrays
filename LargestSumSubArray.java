@@ -30,7 +30,9 @@ public class LargestSumSubArray {
 	//This is a much better approach
 		static int maxSubArraySum(int a[]) {
 		int size = a.length;
+		// max_current at i means the maximum INCLUDING the value of a[i]	
 		int max_current = 0;
+		//// max_global at i means the maximum upto point i including or not including the vaalue of i	
 		int max_global = Integer.MIN_VALUE;;
 		
 
