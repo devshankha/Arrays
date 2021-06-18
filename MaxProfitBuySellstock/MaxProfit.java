@@ -14,6 +14,8 @@ public class MaxProfit {
 	
 	static int maxProfit(int[] prices) {
 		int maxProfit = 0;
+		//here minPrice tracks the smallest element in the array as we go along from left 
+		//to right
 		int minPrice = Integer.MAX_VALUE;
 		for (int i=0; i < prices.length;i++) {
 			if (prices[i] < minPrice)
