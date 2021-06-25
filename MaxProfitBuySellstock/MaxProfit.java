@@ -9,6 +9,7 @@ Code is inspired from here ==
 https://www.youtube.com/watch?v=eMSfBgbiEjk
 *
 **/
+//the key idea here is to keep track of the smallest from left we have encountered so far and the profit till now
 
 public class MaxProfit {
 	
